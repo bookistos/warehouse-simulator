@@ -145,7 +145,7 @@ const WarehouseEnvironment: React.FC = () => {
 };
 
 export const WarehouseScene: React.FC = () => {
-  const [playerPosition, setPlayerPosition] = useState({ x: 0, z: 8 });
+  const [playerPosition, setPlayerPosition] = useState({ x: 2, z: 8 });
   const [playerRotation, setPlayerRotation] = useState(0);
 
   const handlePositionChange = (pos: { x: number; z: number }, rot: number) => {
