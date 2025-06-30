@@ -10,7 +10,7 @@ import {
 
 export const useWarehouseControls = (camera: Camera | null) => {
   const keysPressed = useRef<Set<string>>(new Set());
-  const [position, setPosition] = useState(new Vector3(0, PLAYER_HEIGHT, 8));
+  const [position, setPosition] = useState(new Vector3(2, PLAYER_HEIGHT, 8));
   const [rotation, setRotation] = useState(0); // 0 = facing north
 
   useEffect(() => {
