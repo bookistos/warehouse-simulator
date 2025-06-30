@@ -160,7 +160,7 @@ export const WarehouseScene: React.FC = () => {
           fov: 75, 
           near: 0.1, 
           far: 1000,
-          position: [0, PLAYER_HEIGHT, 8]
+          position: [0, PLAYER_HEIGHT, 2]
         }}
         shadows
       >
