@@ -17,7 +17,7 @@ const CameraController: React.FC<{ onPositionChange: (pos: { x: number; z: numbe
   const { position, rotation } = useWarehouseControls(camera);
 
   useEffect(() => {
-    camera.position.set(0, PLAYER_HEIGHT, 8);
+    camera.position.set(2, PLAYER_HEIGHT, 2);
     camera.lookAt(0, PLAYER_HEIGHT, 0); // Look north initially
   }, [camera]);
 
